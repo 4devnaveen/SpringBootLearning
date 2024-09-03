@@ -1,0 +1,78 @@
+2024-04-15T20:51:31.976+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : Starting MycoolappApplication using Java 22 with PID 14112 (D:\SpringProject\dev-spring-boot\01-spring-boot-overview\06-spring-custome-properties\mycoolapp\target\classes started by 21003 in D:\SpringProject\dev-spring-boot\01-spring-boot-overview\06-spring-custome-properties\mycoolapp)
+2024-04-15T20:51:31.977+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T20:51:32.420+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4567 (http)
+2024-04-15T20:51:32.424+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-15T20:51:32.424+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-15T20:51:32.449+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-15T20:51:32.449+05:30  INFO 14112 --- [mycoolapp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 470 ms
+2024-04-15T20:51:32.614+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-15T20:51:32.620+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-04-15T20:51:32.648+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4567 (http) with context path '/'
+2024-04-15T20:51:32.655+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : Started MycoolappApplication in 0.758 seconds (process running for 14364.929)
+2024-04-15T20:51:32.672+05:30  INFO 14112 --- [mycoolapp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   LogFileWebEndpointAutoConfiguration#logFileWebEndpoint matched:
+      - Log File found logging.file.name Test.log (LogFileWebEndpointAutoConfiguration.LogFileCondition)
+      - @ConditionalOnMissingBean (types: org.springframework.boot.actuate.logging.LogFileWebEndpoint; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-04-15T20:51:55.386+05:30  INFO 14112 --- [mycoolapp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-15T20:51:55.457+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : Starting MycoolappApplication using Java 22 with PID 14112 (D:\SpringProject\dev-spring-boot\01-spring-boot-overview\06-spring-custome-properties\mycoolapp\target\classes started by 21003 in D:\SpringProject\dev-spring-boot\01-spring-boot-overview\06-spring-custome-properties\mycoolapp)
+2024-04-15T20:51:55.458+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T20:51:55.728+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4567 (http)
+2024-04-15T20:51:55.729+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-15T20:51:55.730+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-15T20:51:55.752+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-04-15T20:51:55.752+05:30  INFO 14112 --- [mycoolapp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 292 ms
+2024-04-15T20:51:55.946+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-15T20:51:55.951+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-04-15T20:51:55.980+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4567 (http) with context path '/'
+2024-04-15T20:51:55.988+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : Started MycoolappApplication in 0.552 seconds (process running for 14388.262)
+2024-04-15T20:51:55.993+05:30  INFO 14112 --- [mycoolapp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-15T20:53:41.419+05:30  INFO 14112 --- [mycoolapp] [http-nio-4567-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-15T20:53:41.422+05:30  INFO 14112 --- [mycoolapp] [http-nio-4567-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-15T20:53:41.424+05:30  INFO 14112 --- [mycoolapp] [http-nio-4567-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-04-15T21:02:00.695+05:30  INFO 14112 --- [mycoolapp] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-04-15T21:02:00.829+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : Starting MycoolappApplication using Java 22 with PID 14112 (D:\SpringProject\dev-spring-boot\01-spring-boot-overview\06-spring-custome-properties\mycoolapp\target\classes started by 21003 in D:\SpringProject\dev-spring-boot\01-spring-boot-overview\06-spring-custome-properties\mycoolapp)
+2024-04-15T21:02:00.830+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-04-15T21:02:01.175+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 4567 (http)
+2024-04-15T21:02:01.177+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-04-15T21:02:01.177+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.19]
+2024-04-15T21:02:01.198+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.a.c.c.C.[.[localhost].[/mycoolapp]     : Initializing Spring embedded WebApplicationContext
+2024-04-15T21:02:01.198+05:30  INFO 14112 --- [mycoolapp] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 365 ms
+2024-04-15T21:02:01.327+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-04-15T21:02:01.330+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2024-04-15T21:02:01.345+05:30  INFO 14112 --- [mycoolapp] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 4567 (http) with context path '/mycoolapp'
+2024-04-15T21:02:01.350+05:30  INFO 14112 --- [mycoolapp] [restartedMain] c.l.s.d.mycoolapp.MycoolappApplication   : Started MycoolappApplication in 0.551 seconds (process running for 14993.624)
+2024-04-15T21:02:01.353+05:30  INFO 14112 --- [mycoolapp] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-04-15T21:02:53.342+05:30  INFO 14112 --- [mycoolapp] [http-nio-4567-exec-8] o.a.c.c.C.[.[localhost].[/mycoolapp]     : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-15T21:02:53.344+05:30  INFO 14112 --- [mycoolapp] [http-nio-4567-exec-8] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-04-15T21:02:53.347+05:30  INFO 14112 --- [mycoolapp] [http-nio-4567-exec-8] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
